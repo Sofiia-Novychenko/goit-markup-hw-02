@@ -72,16 +72,16 @@ ul {
 }
 .hero-title {
   font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
 .hero-button {
   cursor: pointer;
-  font-family: "Roboto", sans-serif 
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -128,7 +128,7 @@ color: #fff;
   background-color: #fff;
 }
 .team .title {
-  text-transform: capitalize
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -152,7 +152,7 @@ color: #fff;
 }
 
 .portfolio .title {
-  text-transform: capitalize
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -175,7 +175,7 @@ color: #fff;
 }
 
 .basement {
-  background-color: #2e2f42
+  background-color: #2e2f42;
 }
 .basement .accent {
   text-decoration: none;
@@ -185,12 +185,11 @@ color: #fff;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd
+  color: #f4f4fd;
 }
 .slogan-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  ;
 }
