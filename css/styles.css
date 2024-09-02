@@ -24,7 +24,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -57,6 +57,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 .page-contact .link:hover,
 .page-contact .link:focus {
@@ -66,17 +67,21 @@ ul {
   color: #404bbf;
 }
 
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+.hero-page {
   background-color: #2e2f42;
 }
+.hero-title {
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+
 .hero-button {
   cursor: pointer;
+  font-family: "Roboto", sans-serif 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -116,6 +121,21 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
+.name-box {
+  background-color: #fff;
+}
+.team .title {
+  text-transform: capitalize
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .name-title {
   font-weight: 500;
   font-size: 20px;
@@ -131,6 +151,15 @@ ul {
   text-align: center;
 }
 
+.portfolio .title {
+  text-transform: capitalize
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -145,10 +174,23 @@ ul {
   color: #434455;
 }
 
+.basement {
+  background-color: #2e2f42
+}
+.basement .accent {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd
+}
 .slogan-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background-color: #2e2f42;
+  ;
 }

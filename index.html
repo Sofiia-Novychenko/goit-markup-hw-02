@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="accent">Studio</span></a
-        >
-        <ul class="page-nav">
+        <ul class="page-nav"></ul>
+         <li>
+           <a class="logo" href="./index.html">Web<span class="accent">Studio</span></a>
+         </li>
+        
           <li>
             <a class="link" href="">Studio</a>
           </li>
@@ -25,8 +36,8 @@
         </ul>
       </nav>
 
-      <address>
-        <ul class="page-contact">
+      <address class="page-contact">
+        <ul>
           <li>
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -40,7 +51,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="hero-page">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-button" type="button">Order Service</button>
       </section>
@@ -81,10 +92,10 @@
         </ul>
       </section>
 
-      <section>
+      <section class="team">
         <h2 class="title">Our Team</h2>
         <ul>
-          <li>
+          <li class="name-box">
             <img
               src="./images/img-3.jpg"
               alt="a smiling middle-aged man with a beard"
@@ -94,7 +105,7 @@
             <p class="name-text">Product Designer</p>
           </li>
 
-          <li>
+          <li class="name-box">
             <img
               src="./images/img-2.jpg"
               alt="a young man smiling"
@@ -104,7 +115,7 @@
             <p class="name-text">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="name-box">
             <img
               src="./images/img-1.jpg"
               alt="a young woman smiling"
@@ -114,7 +125,7 @@
             <p class="name-text">Marketing</p>
           </li>
 
-          <li>
+          <li class="name-box">
             <img
               src="./images/img.jpg"
               alt="a smiling young man with a beard "
@@ -126,7 +137,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="portfolio">
         <h2 class="title">Our Portfolio</h2>
         <ul>
           <li>
@@ -141,7 +152,7 @@
           </li>
           <li>
             <img
-              src="images/portfolio/cashless-payment.jpg"
+              src="./images/portfolio/cashless-payment.jpg"
               alt="cashless payment process"
               width="360"
               height="300"
@@ -151,7 +162,7 @@
           </li>
           <li>
             <img
-              src="images/portfolio/pc-display.jpg"
+              src="./images/portfolio/pc-display.jpg"
               alt="laptop display"
               width="360"
               height="300"
@@ -161,7 +172,7 @@
           </li>
           <li>
             <img
-              src="images/portfolio/car.jpg"
+              src="./images/portfolio/car.jpg"
               alt="car salon from the inside"
               width="360"
               height="300"
@@ -171,7 +182,7 @@
           </li>
           <li>
             <img
-              src="images/portfolio/phone-display.jpg"
+              src="./images/portfolio/phone-display.jpg"
               alt="phone display with various designes"
               width="360"
               height="300"
@@ -181,7 +192,7 @@
           </li>
           <li>
             <img
-              src="images/portfolio/woman-smiling.jpg"
+              src="./images/portfolio/woman-smiling.jpg"
               alt="woman smiling while looking in the phone"
               width="360"
               height="300"
@@ -193,7 +204,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="basement">
       <a class="logo" href="./index.html"
         >Web<span class="accent">Studio</span></a
       >
