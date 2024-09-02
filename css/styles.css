@@ -52,12 +52,14 @@ ul {
   color: #404bbf;
   text-decoration: underline;
 }
+.page-contact {
+  font-style: normal;
+}
 .page-contact .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 .page-contact .link:hover,
 .page-contact .link:focus {
